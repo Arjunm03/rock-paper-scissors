@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(44, 62, 80)
+}
+#rock {
+    background-image: url("images/rock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#paper {
+    background-image: url("images/paper.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#scissors {
+    background-image: url("images/scissors.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 3em;
+    color: white;
+    background-color: rgb(44, 62, 80);
+}
+
+#description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(44, 62, 80);
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(44, 62, 80);
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(44, 62, 80);
+}
